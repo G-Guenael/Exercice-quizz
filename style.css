@@ -11,4 +11,48 @@ body {
   font-family: Open sans, sans-serif;
   background: linear-gradient(to right, #e0eafc, #cfdef3);
   padding: clamp(20px, 5vw, 50px) 20px 10px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.quiz-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  padding: 10px 0;
+}
+
+.question-block {
+  background: white;
+  width: 700px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 3px 7px 0;
+  background: #eae5e5;
+}
+
+.question-block div {
+  padding: 5px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.results {
+  text-align: center;
 }
